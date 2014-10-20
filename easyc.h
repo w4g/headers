@@ -56,9 +56,21 @@ void *strupper(char *str) {
 		i++;
 	}
 }
+
+
+int endianness(void){
+	int t = 1;
+	char *p = (char*)&t; 
+	if(*p)
+		return 0; // little endian
+	return 1; // big ...
+}
+
 /* Usage:	strupper("easy c is nice");
 	>>	EASY C IS NICE
-								*/
+
+	
+	*/
 
 
 //	string to lowercase.
