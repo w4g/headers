@@ -9,7 +9,7 @@
 
 // Colors.
 #define Black		30
-#define Red			31
+#define Red		31
 #define Green		32
 #define Yellow		33
 #define Blue		34
